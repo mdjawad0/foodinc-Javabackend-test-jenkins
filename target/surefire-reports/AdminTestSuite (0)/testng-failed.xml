@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AdminTestSuite (0)]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="AdminTests(failed)" verbose="0">
+    <classes>
+      <class name="com.foodinc.RestAssuredValidation.admin.AddRestaurantTest">
+        <methods>
+          <include name="tesAddDishToRestaurant"/>
+          <include name="deserializeAndValidateResponse"/>
+          <include name="validateAddDishToCartWithRestAssured"/>
+        </methods>
+      </class> <!-- com.foodinc.RestAssuredValidation.admin.AddRestaurantTest -->
+      <class name="com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest">
+        <methods>
+          <include name="validateFetchRestaurantWithRestAssured"/>
+          <include name="testFetchRestaurants"/>
+          <include name="deserializeAndValidateResponse"/>
+        </methods>
+      </class> <!-- com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest -->
+      <class name="com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest">
+        <methods>
+          <include name="tesAddDishToRestaurant"/>
+          <include name="validateAddDishToRestaurantWithRestAssured"/>
+          <include name="deserializeAndValidateResponse"/>
+        </methods>
+      </class> <!-- com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest -->
+    </classes>
+  </test> <!-- AdminTests(failed) -->
+</suite> <!-- Failed suite [AdminTestSuite (0)] -->

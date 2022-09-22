@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-AdminTestSuite" class="navigator-link">
+              <span class="suite-name border-failed">AdminTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-AdminTestSuite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-AdminTestSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-AdminTestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-AdminTestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-AdminTestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-AdminTestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-AdminTestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-AdminTestSuite" class="hide-methods failed suite-AdminTestSuite"> (hide)</a> <!-- hide-methods failed suite-AdminTestSuite -->
+                      <a href="#" panel-name="suite-AdminTestSuite" class="show-methods failed suite-AdminTestSuite"> (show)</a> <!-- show-methods failed suite-AdminTestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-AdminTestSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AdminTestSuite" title="com.foodinc.RestAssuredValidation.admin.AddRestaurantTest" class="method navigator-link" hash-for-method="deserializeAndValidateResponse">deserializeAndValidateResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-AdminTestSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AdminTestSuite" class="hide-methods passed suite-AdminTestSuite"> (hide)</a> <!-- hide-methods passed suite-AdminTestSuite -->
+                      <a href="#" panel-name="suite-AdminTestSuite" class="show-methods passed suite-AdminTestSuite"> (show)</a> <!-- show-methods passed suite-AdminTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-AdminTestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AdminTestSuite" title="com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest" class="method navigator-link" hash-for-method="deserializeAndValidateResponse">deserializeAndValidateResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AdminTestSuite" title="com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest" class="method navigator-link" hash-for-method="deserializeAndValidateResponse">deserializeAndValidateResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AdminTestSuite" title="com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest" class="method navigator-link" hash-for-method="tesAddDishToRestaurant">tesAddDishToRestaurant</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AdminTestSuite" title="com.foodinc.RestAssuredValidation.admin.AddRestaurantTest" class="method navigator-link" hash-for-method="tesAddDishToRestaurant">tesAddDishToRestaurant</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AdminTestSuite" title="com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest" class="method navigator-link" hash-for-method="testFetchRestaurants">testFetchRestaurants</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AdminTestSuite" title="com.foodinc.RestAssuredValidation.admin.AddRestaurantTest" class="method navigator-link" hash-for-method="validateAddDishToCartWithRestAssured">validateAddDishToCartWithRestAssured</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AdminTestSuite" title="com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest" class="method navigator-link" hash-for-method="validateAddDishToRestaurantWithRestAssured">validateAddDishToRestaurantWithRestAssured</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AdminTestSuite" title="com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest" class="method navigator-link" hash-for-method="validateFetchRestaurantWithRestAssured">validateFetchRestaurantWithRestAssured</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AdminTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AdminTestSuite" class="panel AdminTestSuite">
+          <div class="suite-AdminTestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.foodinc.RestAssuredValidation.admin.AddRestaurantTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deserializeAndValidateResponse">
+                  </a> <!-- deserializeAndValidateResponse -->
+                  <span class="method-name">deserializeAndValidateResponse</span>
+                  <div class="stack-trace">java.lang.RuntimeException: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;timestamp&quot; (class com.foodinc.RestAssuredValidation.FoodDeliveryResponse), not marked as ignorable (3 known properties: &quot;data&quot;, &quot;code&quot;, &quot;message&quot;])
+ at [Source: (String)&quot;{&quot;timestamp&quot;:&quot;2022-09-07T04:27:04.605+00:00&quot;,&quot;status&quot;:400,&quot;error&quot;:&quot;Bad Request&quot;,&quot;path&quot;:&quot;/dishes/add&quot;}&quot;; line: 1, column: 15] (through reference chain: com.foodinc.RestAssuredValidation.FoodDeliveryResponse[&quot;timestamp&quot;])
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:30)
+	at io.restassured.path.json.mapping.JsonPathObjectDeserializer$deserialize.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:46)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.mapping.Jackson2Mapper.deserialize(Jackson2Mapper.groovy:58)
+	at io.restassured.mapper.ObjectMapper$deserialize.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:46)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at io.restassured.internal.mapping.ObjectMapping.parseWithJackson2(ObjectMapping.groovy:254)
+	at io.restassured.internal.mapping.ObjectMapping$parseWithJackson2$0.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:54)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+	at io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:56)
+	at io.restassured.internal.mapping.ObjectMapping$deserialize.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:46)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:231)
+	at io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:169)
+	at com.foodinc.RestAssuredValidation.admin.AddRestaurantTest.deserializeAndValidateResponse(AddRestaurantTest.java:126)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException: Unrecognized field &quot;timestamp&quot; (class com.foodinc.RestAssuredValidation.FoodDeliveryResponse), not marked as ignorable (3 known properties: &quot;data&quot;, &quot;code&quot;, &quot;message&quot;])
+ at [Source: (String)&quot;{&quot;timestamp&quot;:&quot;2022-09-07T04:27:04.605+00:00&quot;,&quot;status&quot;:400,&quot;error&quot;:&quot;Bad Request&quot;,&quot;path&quot;:&quot;/dishes/add&quot;}&quot;; line: 1, column: 15] (through reference chain: com.foodinc.RestAssuredValidation.FoodDeliveryResponse[&quot;timestamp&quot;])
+	at com.fasterxml.jackson.databind.exc.UnrecognizedPropertyException.from(UnrecognizedPropertyException.java:61)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnknownProperty(DeserializationContext.java:1127)
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer.handleUnknownProperty(StdDeserializer.java:2023)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownProperty(BeanDeserializerBase.java:1700)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializerBase.handleUnknownVanilla(BeanDeserializerBase.java:1678)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:319)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:176)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4674)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3629)
+	at io.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.java:28)
+	... 34 more
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AdminTestSuite-class-failed -->
+          <div class="suite-AdminTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.foodinc.RestAssuredValidation.admin.AddRestaurantTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tesAddDishToRestaurant">
+                  </a> <!-- tesAddDishToRestaurant -->
+                  <span class="method-name">tesAddDishToRestaurant</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddDishToCartWithRestAssured">
+                  </a> <!-- validateAddDishToCartWithRestAssured -->
+                  <span class="method-name">validateAddDishToCartWithRestAssured</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AdminTestSuite-class-passed -->
+          <div class="suite-AdminTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deserializeAndValidateResponse">
+                  </a> <!-- deserializeAndValidateResponse -->
+                  <span class="method-name">deserializeAndValidateResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFetchRestaurants">
+                  </a> <!-- testFetchRestaurants -->
+                  <span class="method-name">testFetchRestaurants</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFetchRestaurantWithRestAssured">
+                  </a> <!-- validateFetchRestaurantWithRestAssured -->
+                  <span class="method-name">validateFetchRestaurantWithRestAssured</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AdminTestSuite-class-passed -->
+          <div class="suite-AdminTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deserializeAndValidateResponse">
+                  </a> <!-- deserializeAndValidateResponse -->
+                  <span class="method-name">deserializeAndValidateResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tesAddDishToRestaurant">
+                  </a> <!-- tesAddDishToRestaurant -->
+                  <span class="method-name">tesAddDishToRestaurant</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddDishToRestaurantWithRestAssured">
+                  </a> <!-- validateAddDishToRestaurantWithRestAssured -->
+                  <span class="method-name">validateAddDishToRestaurantWithRestAssured</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AdminTestSuite-class-passed -->
+        </div> <!-- panel AdminTestSuite -->
+        <div panel-name="test-xml-AdminTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/ishant/Downloads/SimplilearnSelenium/RestAssuredValidation/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;AdminTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;AdminTests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest&quot;/&gt;
+      &lt;class name=&quot;com.foodinc.RestAssuredValidation.admin.AddRestaurantTest&quot;/&gt;
+      &lt;class name=&quot;com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AdminTests --&gt;
+&lt;/suite&gt; &lt;!-- AdminTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AdminTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AdminTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AdminTests (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AdminTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AdminTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AdminTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AdminTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AdminTestSuite');
+function tableData_AdminTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'deserializeAndValidateResponse')
+data.setCell(0, 2, 'com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest')
+data.setCell(0, 3, 743);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'deserializeAndValidateResponse')
+data.setCell(1, 2, 'com.foodinc.RestAssuredValidation.admin.AddRestaurantTest')
+data.setCell(1, 3, 743);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tesAddDishToRestaurant')
+data.setCell(2, 2, 'com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest')
+data.setCell(2, 3, 232);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tesAddDishToRestaurant')
+data.setCell(3, 2, 'com.foodinc.RestAssuredValidation.admin.AddRestaurantTest')
+data.setCell(3, 3, 230);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'deserializeAndValidateResponse')
+data.setCell(4, 2, 'com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest')
+data.setCell(4, 3, 161);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateAddDishToRestaurantWithRestAssured')
+data.setCell(5, 2, 'com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest')
+data.setCell(5, 3, 64);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateAddDishToCartWithRestAssured')
+data.setCell(6, 2, 'com.foodinc.RestAssuredValidation.admin.AddRestaurantTest')
+data.setCell(6, 3, 64);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testFetchRestaurants')
+data.setCell(7, 2, 'com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest')
+data.setCell(7, 3, 49);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validateFetchRestaurantWithRestAssured')
+data.setCell(8, 2, 'com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest')
+data.setCell(8, 3, 37);
+window.suiteTableData['AdminTestSuite']= { tableData: data, tableDiv: 'times-div-AdminTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-AdminTestSuite">
+              </div> <!-- times-div-AdminTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AdminTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AdminTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AdminTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AdminTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.foodinc.RestAssuredValidation.admin.AddRestaurantTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deserializeAndValidateResponse</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">deserializeAndValidateResponse</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tesAddDishToRestaurant</span>
+                <span class="method-start">744 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.foodinc.RestAssuredValidation.admin.AddRestaurantTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">tesAddDishToRestaurant</span>
+                <span class="method-start">746 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateAddDishToRestaurantWithRestAssured</span>
+                <span class="method-start">978 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.foodinc.RestAssuredValidation.admin.AddRestaurantTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateAddDishToCartWithRestAssured</span>
+                <span class="method-start">978 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">deserializeAndValidateResponse</span>
+                <span class="method-start">1042 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFetchRestaurants</span>
+                <span class="method-start">1203 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateFetchRestaurantWithRestAssured</span>
+                <span class="method-start">1252 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

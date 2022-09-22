@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AdminTestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="AdminTests(failed)" verbose="0">
+    <classes>
+      <class name="com.foodinc.RestAssuredValidation.enduser.FetchCartTest">
+        <methods>
+          <include name="testFetchCart"/>
+          <include name="deserializeAndValidateResponse"/>
+          <include name="validateFetchCartWithRestAssured"/>
+        </methods>
+      </class> <!-- com.foodinc.RestAssuredValidation.enduser.FetchCartTest -->
+      <class name="com.foodinc.RestAssuredValidation.enduser.RegisterUserTest">
+        <methods>
+          <include name="testUserRegister"/>
+          <include name="validateUserRegisterWithRestAssured"/>
+          <include name="deserializeAndValidateResponse"/>
+        </methods>
+      </class> <!-- com.foodinc.RestAssuredValidation.enduser.RegisterUserTest -->
+      <class name="com.foodinc.RestAssuredValidation.enduser.AddDishToCartTest">
+        <methods>
+          <include name="deserializeAndValidateResponse"/>
+          <include name="tesAddDishToCart"/>
+          <include name="validateAddDishToCartWithRestAssured"/>
+        </methods>
+      </class> <!-- com.foodinc.RestAssuredValidation.enduser.AddDishToCartTest -->
+    </classes>
+  </test> <!-- AdminTests(failed) -->
+</suite> <!-- Failed suite [AdminTestSuite] -->

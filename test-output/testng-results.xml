@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-01T08:55:05 IST" name="Default suite" finished-at="2022-09-01T08:55:06 IST" duration-ms="982">
+    <groups>
+    </groups>
+    <test started-at="2022-09-01T08:55:05 IST" name="Default test" finished-at="2022-09-01T08:55:06 IST" duration-ms="982">
+      <class name="com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest">
+        <test-method signature="deserializeAndValidateResponse()[pri:0, instance:com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest@505fc5a4]" started-at="2022-09-01T08:55:05 IST" name="deserializeAndValidateResponse" finished-at="2022-09-01T08:55:06 IST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deserializeAndValidateResponse -->
+        <test-method signature="tesAddDishToRestaurant()[pri:0, instance:com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest@505fc5a4]" started-at="2022-09-01T08:55:06 IST" name="tesAddDishToRestaurant" finished-at="2022-09-01T08:55:06 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesAddDishToRestaurant -->
+        <test-method signature="validateAddDishToRestaurantWithRestAssured()[pri:0, instance:com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest@505fc5a4]" started-at="2022-09-01T08:55:06 IST" name="validateAddDishToRestaurantWithRestAssured" finished-at="2022-09-01T08:55:06 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddDishToRestaurantWithRestAssured -->
+      </class> <!-- com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

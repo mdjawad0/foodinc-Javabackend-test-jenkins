@@ -1,0 +1,7 @@
+com/foodinc/RestAssuredValidation/admin/AddRestaurantTest.class
+com/foodinc/RestAssuredValidation/admin/AddDishInRestaurantTest.class
+com/foodinc/RestAssuredValidation/admin/FetchRestaurantTest.class
+com/foodinc/RestAssuredValidation/enduser/FetchCartTest.class
+com/foodinc/RestAssuredValidation/AppTest.class
+com/foodinc/RestAssuredValidation/enduser/AddDishToCartTest.class
+com/foodinc/RestAssuredValidation/enduser/RegisterUserTest.class

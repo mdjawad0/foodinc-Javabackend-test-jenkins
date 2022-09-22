@@ -1,0 +1,76 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 18, Errors: 0, Skipped: 0, Time elapsed: 0.887 s <<< FAILURE! - in TestSuite
+deserializeAndValidateResponse(com.foodinc.RestAssuredValidation.enduser.AddDishToCartTest)  Time elapsed: 0.532 s  <<< FAILURE!
+java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.enduser.AddDishToCartTest.deserializeAndValidateResponse(AddDishToCartTest.java:98)
+
+tesAddDishToCart(com.foodinc.RestAssuredValidation.enduser.AddDishToCartTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.enduser.AddDishToCartTest.tesAddDishToCart(AddDishToCartTest.java:32)
+
+validateAddDishToCartWithRestAssured(com.foodinc.RestAssuredValidation.enduser.AddDishToCartTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.enduser.AddDishToCartTest.validateAddDishToCartWithRestAssured(AddDishToCartTest.java:77)
+
+deserializeAndValidateResponse(com.foodinc.RestAssuredValidation.enduser.FetchCartTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.enduser.FetchCartTest.deserializeAndValidateResponse(FetchCartTest.java:89)
+
+testFetchCart(com.foodinc.RestAssuredValidation.enduser.FetchCartTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.enduser.FetchCartTest.testFetchCart(FetchCartTest.java:29)
+
+validateFetchCartWithRestAssured(com.foodinc.RestAssuredValidation.enduser.FetchCartTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.enduser.FetchCartTest.validateFetchCartWithRestAssured(FetchCartTest.java:71)
+
+deserializeAndValidateResponse(com.foodinc.RestAssuredValidation.enduser.RegisterUserTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.enduser.RegisterUserTest.deserializeAndValidateResponse(RegisterUserTest.java:102)
+
+testUserRegister(com.foodinc.RestAssuredValidation.enduser.RegisterUserTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.enduser.RegisterUserTest.testUserRegister(RegisterUserTest.java:34)
+
+validateUserRegisterWithRestAssured(com.foodinc.RestAssuredValidation.enduser.RegisterUserTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.enduser.RegisterUserTest.validateUserRegisterWithRestAssured(RegisterUserTest.java:79)
+
+deserializeAndValidateResponse(com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest.deserializeAndValidateResponse(AddDishInRestaurantTest.java:125)
+
+tesAddDishToRestaurant(com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest.tesAddDishToRestaurant(AddDishInRestaurantTest.java:43)
+
+validateAddDishToRestaurantWithRestAssured(com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest)  Time elapsed: 0.012 s  <<< FAILURE!
+java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest.validateAddDishToRestaurantWithRestAssured(AddDishInRestaurantTest.java:96)
+
+deserializeAndValidateResponse(com.foodinc.RestAssuredValidation.admin.AddRestaurantTest)  Time elapsed: 0.006 s  <<< FAILURE!
+java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.admin.AddRestaurantTest.deserializeAndValidateResponse(AddRestaurantTest.java:122)
+
+tesAddDishToRestaurant(com.foodinc.RestAssuredValidation.admin.AddRestaurantTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.admin.AddRestaurantTest.tesAddDishToRestaurant(AddRestaurantTest.java:40)
+
+validateAddDishToCartWithRestAssured(com.foodinc.RestAssuredValidation.admin.AddRestaurantTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.admin.AddRestaurantTest.validateAddDishToCartWithRestAssured(AddRestaurantTest.java:93)
+
+deserializeAndValidateResponse(com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest.deserializeAndValidateResponse(FetchRestaurantTest.java:90)
+
+testFetchRestaurants(com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest.testFetchRestaurants(FetchRestaurantTest.java:29)
+
+validateFetchRestaurantWithRestAssured(com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest.validateFetchRestaurantWithRestAssured(FetchRestaurantTest.java:72)
+

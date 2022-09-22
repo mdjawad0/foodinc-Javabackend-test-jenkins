@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AdminTestSuite">
+   <test name="AdminTests">
+      <classes> 
+       	<class name="com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest"/>
+        <class name="com.foodinc.RestAssuredValidation.admin.AddRestaurantTest"/>
+       	<class name="com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest"/>
+      </classes>
+   </test>
+ </suite>

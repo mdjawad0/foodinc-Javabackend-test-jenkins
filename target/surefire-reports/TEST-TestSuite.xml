@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.887" tests="18" errors="0" skipped="0" failures="18">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ishant/Downloads/SimplilearnSelenium/RestAssuredValidation/target/test-classes:/Users/ishant/Downloads/SimplilearnSelenium/RestAssuredValidation/target/classes:/Users/ishant/.m2/repository/io/rest-assured/rest-assured/5.1.1/rest-assured-5.1.1.jar:/Users/ishant/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/ishant/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/ishant/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/ishant/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/ishant/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ishant/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/ishant/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/ishant/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/ishant/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/ishant/.m2/repository/io/rest-assured/json-path/5.1.1/json-path-5.1.1.jar:/Users/ishant/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/ishant/.m2/repository/io/rest-assured/rest-assured-common/5.1.1/rest-assured-common-5.1.1.jar:/Users/ishant/.m2/repository/io/rest-assured/xml-path/5.1.1/xml-path-5.1.1.jar:/Users/ishant/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/ishant/.m2/repository/org/json/json/20220320/json-20220320.jar:/Users/ishant/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/ishant/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ishant/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/ishant/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/ishant/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/ishant/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/Users/ishant/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/Users/ishant/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/18.0.1.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/ishant/Downloads/SimplilearnSelenium/RestAssuredValidation/target/surefire/surefirebooter7655584273608563552.jar /Users/ishant/Downloads/SimplilearnSelenium/RestAssuredValidation/target/surefire 2022-09-07T11-39-51_392-jvmRun1 surefire14790289294655912754tmp surefire_01477851471761844510tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ishant/Downloads/SimplilearnSelenium/RestAssuredValidation/target/test-classes:/Users/ishant/Downloads/SimplilearnSelenium/RestAssuredValidation/target/classes:/Users/ishant/.m2/repository/io/rest-assured/rest-assured/5.1.1/rest-assured-5.1.1.jar:/Users/ishant/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/ishant/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/ishant/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/ishant/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/ishant/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ishant/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/ishant/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/ishant/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/ishant/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/ishant/.m2/repository/io/rest-assured/json-path/5.1.1/json-path-5.1.1.jar:/Users/ishant/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/ishant/.m2/repository/io/rest-assured/rest-assured-common/5.1.1/rest-assured-common-5.1.1.jar:/Users/ishant/.m2/repository/io/rest-assured/xml-path/5.1.1/xml-path-5.1.1.jar:/Users/ishant/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/ishant/.m2/repository/org/json/json/20220320/json-20220320.jar:/Users/ishant/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/ishant/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ishant/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/ishant/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/ishant/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/ishant/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/Users/ishant/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/Users/ishant/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ishant"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/18.0.1.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/ishant/Downloads/SimplilearnSelenium/RestAssuredValidation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/ishant/Downloads/SimplilearnSelenium/RestAssuredValidation/target/surefire/surefirebooter7655584273608563552.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="18.0.1.1+0"/>
+    <property name="user.name" value="ishant"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.5.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/ishant/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/5g/p0vt4z4n6rlgcph3nkxkljtr0000gn/T/"/>
+    <property name="java.version" value="18.0.1.1"/>
+    <property name="user.dir" value="/Users/ishant/Downloads/SimplilearnSelenium/RestAssuredValidation"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ishant/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="18.0.1.1+0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="deserializeAndValidateResponse" classname="com.foodinc.RestAssuredValidation.enduser.AddDishToCartTest" time="0.532">
+    <failure message="Connection refused" type="java.net.ConnectException">java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.enduser.AddDishToCartTest.deserializeAndValidateResponse(AddDishToCartTest.java:98)
+</failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="tesAddDishToCart" classname="com.foodinc.RestAssuredValidation.enduser.AddDishToCartTest" time="0.005">
+    <failure message="Connection refused" type="java.net.ConnectException">java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.enduser.AddDishToCartTest.tesAddDishToCart(AddDishToCartTest.java:32)
+</failure>
+  </testcase>
+  <testcase name="validateAddDishToCartWithRestAssured" classname="com.foodinc.RestAssuredValidation.enduser.AddDishToCartTest" time="0.005">
+    <failure message="Connection refused" type="java.net.ConnectException">java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.enduser.AddDishToCartTest.validateAddDishToCartWithRestAssured(AddDishToCartTest.java:77)
+</failure>
+  </testcase>
+  <testcase name="deserializeAndValidateResponse" classname="com.foodinc.RestAssuredValidation.enduser.FetchCartTest" time="0.011">
+    <failure message="Connection refused" type="java.net.ConnectException">java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.enduser.FetchCartTest.deserializeAndValidateResponse(FetchCartTest.java:89)
+</failure>
+  </testcase>
+  <testcase name="testFetchCart" classname="com.foodinc.RestAssuredValidation.enduser.FetchCartTest" time="0.004">
+    <failure message="Connection refused" type="java.net.ConnectException">java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.enduser.FetchCartTest.testFetchCart(FetchCartTest.java:29)
+</failure>
+  </testcase>
+  <testcase name="validateFetchCartWithRestAssured" classname="com.foodinc.RestAssuredValidation.enduser.FetchCartTest" time="0.005">
+    <failure message="Connection refused" type="java.net.ConnectException">java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.enduser.FetchCartTest.validateFetchCartWithRestAssured(FetchCartTest.java:71)
+</failure>
+  </testcase>
+  <testcase name="deserializeAndValidateResponse" classname="com.foodinc.RestAssuredValidation.enduser.RegisterUserTest" time="0.006">
+    <failure message="Connection refused" type="java.net.ConnectException">java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.enduser.RegisterUserTest.deserializeAndValidateResponse(RegisterUserTest.java:102)
+</failure>
+  </testcase>
+  <testcase name="testUserRegister" classname="com.foodinc.RestAssuredValidation.enduser.RegisterUserTest" time="0.004">
+    <failure message="Connection refused" type="java.net.ConnectException">java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.enduser.RegisterUserTest.testUserRegister(RegisterUserTest.java:34)
+</failure>
+  </testcase>
+  <testcase name="validateUserRegisterWithRestAssured" classname="com.foodinc.RestAssuredValidation.enduser.RegisterUserTest" time="0.005">
+    <failure message="Connection refused" type="java.net.ConnectException">java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.enduser.RegisterUserTest.validateUserRegisterWithRestAssured(RegisterUserTest.java:79)
+</failure>
+  </testcase>
+  <testcase name="deserializeAndValidateResponse" classname="com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest" time="0.003">
+    <failure message="Connection refused" type="java.net.ConnectException">java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest.deserializeAndValidateResponse(AddDishInRestaurantTest.java:125)
+</failure>
+  </testcase>
+  <testcase name="tesAddDishToRestaurant" classname="com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest" time="0.004">
+    <failure message="Connection refused" type="java.net.ConnectException">java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest.tesAddDishToRestaurant(AddDishInRestaurantTest.java:43)
+</failure>
+  </testcase>
+  <testcase name="validateAddDishToRestaurantWithRestAssured" classname="com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest" time="0.012">
+    <failure message="Connection refused" type="java.net.ConnectException">java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.admin.AddDishInRestaurantTest.validateAddDishToRestaurantWithRestAssured(AddDishInRestaurantTest.java:96)
+</failure>
+  </testcase>
+  <testcase name="deserializeAndValidateResponse" classname="com.foodinc.RestAssuredValidation.admin.AddRestaurantTest" time="0.006">
+    <failure message="Connection refused" type="java.net.ConnectException">java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.admin.AddRestaurantTest.deserializeAndValidateResponse(AddRestaurantTest.java:122)
+</failure>
+  </testcase>
+  <testcase name="tesAddDishToRestaurant" classname="com.foodinc.RestAssuredValidation.admin.AddRestaurantTest" time="0.003">
+    <failure message="Connection refused" type="java.net.ConnectException">java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.admin.AddRestaurantTest.tesAddDishToRestaurant(AddRestaurantTest.java:40)
+</failure>
+  </testcase>
+  <testcase name="validateAddDishToCartWithRestAssured" classname="com.foodinc.RestAssuredValidation.admin.AddRestaurantTest" time="0.004">
+    <failure message="Connection refused" type="java.net.ConnectException">java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.admin.AddRestaurantTest.validateAddDishToCartWithRestAssured(AddRestaurantTest.java:93)
+</failure>
+  </testcase>
+  <testcase name="deserializeAndValidateResponse" classname="com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest" time="0.003">
+    <failure message="Connection refused" type="java.net.ConnectException">java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest.deserializeAndValidateResponse(FetchRestaurantTest.java:90)
+</failure>
+  </testcase>
+  <testcase name="testFetchRestaurants" classname="com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest" time="0.003">
+    <failure message="Connection refused" type="java.net.ConnectException">java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest.testFetchRestaurants(FetchRestaurantTest.java:29)
+</failure>
+  </testcase>
+  <testcase name="validateFetchRestaurantWithRestAssured" classname="com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest" time="0.003">
+    <failure message="Connection refused" type="java.net.ConnectException">java.net.ConnectException: Connection refused
+	at com.foodinc.RestAssuredValidation.admin.FetchRestaurantTest.validateFetchRestaurantWithRestAssured(FetchRestaurantTest.java:72)
+</failure>
+  </testcase>
+</testsuite>
