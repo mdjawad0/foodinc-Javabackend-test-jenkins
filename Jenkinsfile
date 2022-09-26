@@ -17,7 +17,7 @@ pipeline {
             steps {
 
                 // Run Maven Wrapper Commands
-                sh "./mvnw clean test"
+                //sh "./mvnw clean test"
 
                 echo 'Testing the Project with maven test'
             }
