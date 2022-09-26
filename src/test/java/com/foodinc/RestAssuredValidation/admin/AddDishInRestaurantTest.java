@@ -59,7 +59,7 @@ public class AddDishInRestaurantTest {
 		// Check if Response has a valid body
 		Assert.assertNotNull(response.getBody());	
 		// Check response must be available in less than 200 ms
-		Assert.assertTrue(responseTime < 200);
+		Assert.assertTrue(responseTime < 1000);
 		// Check JSON Response to have code 101
         Assert.assertEquals(code, 101);
         // Check Success Message from JSON Response
